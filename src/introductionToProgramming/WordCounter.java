@@ -31,6 +31,8 @@ public class WordCounter {
 
     //Setter and getter for user input
     public void setUserInput(String text) {
+        if (text.equalsIgnoreCase("stop")) {
+        }
         userInput = text;
     }
     public String getUserInput() {
