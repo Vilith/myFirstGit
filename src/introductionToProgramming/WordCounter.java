@@ -33,7 +33,6 @@ public class WordCounter {
     public void setUserInput(String text) {
         userInput = text;
     }
-
     public String getUserInput() {
         return userInput;
     }
@@ -45,7 +44,6 @@ public class WordCounter {
                 longestWord = word;
             }
     }
-
     public String getLongestWord() {
         return longestWord;
     }
@@ -54,7 +52,6 @@ public class WordCounter {
     public void setCharacterCount() {
         characters += userInput.length();
     }
-
     public int getCharacterCount() {
         return characters;
     }
@@ -63,7 +60,6 @@ public class WordCounter {
     public void setLines() {
         lines++;
     }
-
     public int getLines() {
         return lines;
     }
@@ -76,7 +72,6 @@ public class WordCounter {
             }
         }
     }
-
     public int getNumberOfWords() {
         return numberOfWords;
     }
