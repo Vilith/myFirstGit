@@ -11,7 +11,7 @@ public class WordCounter {
 
     private boolean counter = false;
 
-    //Metoder för att returnera attribut
+    //Methods to return attributes
 
     public boolean getBoolean(String text) {
         if (text.equalsIgnoreCase("stop")) {
