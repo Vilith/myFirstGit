@@ -69,7 +69,7 @@ public class WordCounter {
     //Setter and getter for number of words
     public void setNumberOfWords() {
         for (int i = 0; i < (userInput.length()); i++) {
-            if (((i > 0) && (userInput.charAt(i) != ' ') && (userInput.charAt(i - 1) == ' ')) || ((userInput.charAt(i) != ' ') && (i == 0))) {
+            if (((userInput.charAt(i) != ' ') && (i == 0))  || ((i > 0) && (userInput.charAt(i) != ' ') && (userInput.charAt(i - 1) == ' '))) {
                 numberOfWords++;
             }
         }
